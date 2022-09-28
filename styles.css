@@ -25,6 +25,22 @@ body {
 .postcard-body {
 	display: flex;
 }
-.body-leftp: second-child {
-	margin-top: 10;
+.body-left {
+    position: fixed;
+    margin: auto;
+    padding: 5px;
 }
+.body-right {
+    position: fixed;
+    margin: auto;
+    padding: 5px;
+}
+input {
+    border-bottom: rgb(58, 58, 58);
+}
+.postcard-footer {
+	position: fixed;
+	text-align: center;
+    	background-color: rgb(233, 2, 2) !important;
+	margin-left: 50%;
+	}
